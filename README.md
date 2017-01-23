@@ -1,0 +1,221 @@
+## Print numbers with style
+
+Convert integer value to roman numeral value string:
+
+```go
+package main
+
+import (
+  "fmt"
+
+  "github.com/proullon/roman"
+)
+
+func main() {
+  fmt.Printf("Chapter %s\n", roman.Value(23))
+}
+```
+
+## Example
+
+```shell
+Chapter   1: I
+Chapter   2: II
+Chapter   3: III
+Chapter   4: IV
+Chapter   5: V
+Chapter   6: VI
+Chapter   7: VII
+Chapter   8: VIII
+Chapter   9: IX
+Chapter  10: X
+Chapter  11: XI
+Chapter  12: XII
+Chapter  13: XIII
+Chapter  14: XIV
+Chapter  15: XV
+Chapter  16: XVI
+Chapter  17: XVII
+Chapter  18: XVIII
+Chapter  19: XIX
+Chapter  20: XX
+Chapter  21: XXI
+Chapter  22: XXII
+Chapter  23: XXIII
+Chapter  24: XXIV
+Chapter  25: XXV
+Chapter  26: XXVI
+Chapter  27: XXVII
+Chapter  28: XXVIII
+Chapter  29: XXIX
+Chapter  30: XXX
+Chapter  31: XXXI
+Chapter  32: XXXII
+Chapter  33: XXXIII
+Chapter  34: XXXIV
+Chapter  35: XXXV
+Chapter  36: XXXVI
+Chapter  37: XXXVII
+Chapter  38: XXXVIII
+Chapter  39: XXXIX
+Chapter  40: XL
+Chapter  41: XLI
+Chapter  42: XLII
+Chapter  43: XLIII
+Chapter  44: XLIV
+Chapter  45: XLV
+Chapter  46: XLVI
+Chapter  47: XLVII
+Chapter  48: XLVIII
+Chapter  49: XLIX
+Chapter  50: L
+Chapter  51: LI
+Chapter  52: LII
+Chapter  53: LIII
+Chapter  54: LIV
+Chapter  55: LV
+Chapter  56: LVI
+Chapter  57: LVII
+Chapter  58: LVIII
+Chapter  59: LIX
+Chapter  60: LX
+Chapter  61: LXI
+Chapter  62: LXII
+Chapter  63: LXIII
+Chapter  64: LXIV
+Chapter  65: LXV
+Chapter  66: LXVI
+Chapter  67: LXVII
+Chapter  68: LXVIII
+Chapter  69: LXIX
+Chapter  70: LXX
+Chapter  71: LXXI
+Chapter  72: LXXII
+Chapter  73: LXXIII
+Chapter  74: LXXIV
+Chapter  75: LXXV
+Chapter  76: LXXVI
+Chapter  77: LXXVII
+Chapter  78: LXXVIII
+Chapter  79: LXXIX
+Chapter  80: LXXX
+Chapter  81: LXXXI
+Chapter  82: LXXXII
+Chapter  83: LXXXIII
+Chapter  84: LXXXIV
+Chapter  85: LXXXV
+Chapter  86: LXXXVI
+Chapter  87: LXXXVII
+Chapter  88: LXXXVIII
+Chapter  89: LXXXIX
+Chapter  90: XC
+Chapter  91: XCI
+Chapter  92: XCII
+Chapter  93: XCIII
+Chapter  94: XCIV
+Chapter  95: XCV
+Chapter  96: XCVI
+Chapter  97: XCVII
+Chapter  98: XCVIII
+Chapter  99: XCIX
+Chapter 100: C
+Chapter 101: CI
+Chapter 102: CII
+Chapter 103: CIII
+Chapter 104: CIV
+Chapter 105: CV
+Chapter 106: CVI
+Chapter 107: CVII
+Chapter 108: CVIII
+Chapter 109: CIX
+Chapter 110: CX
+Chapter 111: CXI
+Chapter 112: CXII
+Chapter 113: CXIII
+Chapter 114: CXIV
+Chapter 115: CXV
+Chapter 116: CXVI
+Chapter 117: CXVII
+Chapter 118: CXVIII
+Chapter 119: CXIX
+Chapter 120: CXX
+Chapter 121: CXXI
+Chapter 122: CXXII
+Chapter 123: CXXIII
+Chapter 124: CXXIV
+Chapter 125: CXXV
+Chapter 126: CXXVI
+Chapter 127: CXXVII
+Chapter 128: CXXVIII
+Chapter 129: CXXIX
+Chapter 130: CXXX
+Chapter 131: CXXXI
+Chapter 132: CXXXII
+Chapter 133: CXXXIII
+Chapter 134: CXXXIV
+Chapter 135: CXXXV
+Chapter 136: CXXXVI
+Chapter 137: CXXXVII
+Chapter 138: CXXXVIII
+Chapter 139: CXXXIX
+Chapter 140: CXL
+Chapter 141: CXLI
+Chapter 142: CXLII
+Chapter 143: CXLIII
+Chapter 144: CXLIV
+Chapter 145: CXLV
+Chapter 146: CXLVI
+Chapter 147: CXLVII
+Chapter 148: CXLVIII
+Chapter 149: CXLIX
+Chapter 150: CL
+Chapter 151: CLI
+Chapter 152: CLII
+Chapter 153: CLIII
+Chapter 154: CLIV
+Chapter 155: CLV
+Chapter 156: CLVI
+Chapter 157: CLVII
+Chapter 158: CLVIII
+Chapter 159: CLIX
+Chapter 160: CLX
+Chapter 161: CLXI
+Chapter 162: CLXII
+Chapter 163: CLXIII
+Chapter 164: CLXIV
+Chapter 165: CLXV
+Chapter 166: CLXVI
+Chapter 167: CLXVII
+Chapter 168: CLXVIII
+Chapter 169: CLXIX
+Chapter 170: CLXX
+Chapter 171: CLXXI
+Chapter 172: CLXXII
+Chapter 173: CLXXIII
+Chapter 174: CLXXIV
+Chapter 175: CLXXV
+Chapter 176: CLXXVI
+Chapter 177: CLXXVII
+Chapter 178: CLXXVIII
+Chapter 179: CLXXIX
+Chapter 180: CLXXX
+Chapter 181: CLXXXI
+Chapter 182: CLXXXII
+Chapter 183: CLXXXIII
+Chapter 184: CLXXXIV
+Chapter 185: CLXXXV
+Chapter 186: CLXXXVI
+Chapter 187: CLXXXVII
+Chapter 188: CLXXXVIII
+Chapter 189: CLXXXIX
+Chapter 190: CXC
+Chapter 191: CXCI
+Chapter 192: CXCII
+Chapter 193: CXCIII
+Chapter 194: CXCIV
+Chapter 195: CXCV
+Chapter 196: CXCVI
+Chapter 197: CXCVII
+Chapter 198: CXCVIII
+Chapter 199: CXCIX
+```
